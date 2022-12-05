@@ -1,7 +1,7 @@
 //import * as local from './local/config.json';
 import fs from 'fs';
 import * as path from 'path';
-import { Config } from './dev/Config'
+import { Config } from './dev/config'
 
 export default () => {
     if(process.env.Config !== undefined){
